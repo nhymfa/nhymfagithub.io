@@ -1,54 +1,41 @@
-* {
+html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+
+   
 }
 .header{
-    min-height: 100vh;
+    height: 100%;
     width: 100%;
-    /* background-image: url(../image/cover3.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative; */
-}
-.nav1{
-    display: flex;
-    padding: 1% 5%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-}
-.nav2 {
-    display: flex;
-    padding: 1% 5%;
-    width: auto;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
+    /* border: 2px solid red; */
+    
 }
 
-nav img{
-    width: 100px;
-  
-}
-.nav-links {
-    flex: 1;
+footer div {
+    background-color: #252323;
+    height: 100px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: right;
+    text-align: center;
+   
+
 }
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 30px;
+footer i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 10px;
+   
+}
+/* .carousel-inner {
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
-}
-.nav-links ul li a{
-    color: #e80808;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.nav-links ul li::after {
+} */
+
+/* .nav-links ul li::after {
     content: "";
     width: 0px;
     height: 2px;
@@ -58,8 +45,8 @@ nav img{
 }
 .nav-links ul li:hover::after {
     width: 30%;
-}
-.nav2 {
+} */
+/* .nav2 {
     margin-right: 8px;
 }
 
@@ -75,7 +62,7 @@ nav img{
         right: -200px;
         text-align: left;
         z-index: 2;
-    }
+    } */
 
     /* ICON  */
     /* nav .fa{
@@ -87,7 +74,7 @@ nav img{
     } */
 
 
-.footer {
+/* .footer {
    margin: auto;
    text-align: center;
    padding: 30px 10px;
@@ -118,4 +105,4 @@ p {
 }
 .footer-col img {
     width: 80%;
-}
+} */
