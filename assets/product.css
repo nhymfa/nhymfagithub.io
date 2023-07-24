@@ -19,7 +19,6 @@ nav a{
 }
 
 .container-fluid {
-
   display: flex;
   justify-content: space-around !important;
 }
@@ -28,22 +27,23 @@ nav a{
     width: 90%;
     display: flex;
     justify-content: space-between !important;
-    border: 2px solid red;
 }
 nav .navbar-brand {
     font-size: 40px;
-    color: #ffffff;
-    text-shadow: 2px 2px 10px #1f2670;
+    color: #08206e;
+    font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 nav .nav-link{
     font-size: 22px;
     margin-left: 50px;
-    transition: 0.5s ease-in;
 }
 .nav-link:hover {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
+}
+.navbar-brand:hover {
+    color: #08206e;
 }
 
 .lnk-product a {
@@ -65,9 +65,210 @@ background-color: #ff0505;
 } 
 
 #product {
-    height: 100vh;
+    height: auto;
+    margin-bottom: 100px;
 }
-.container {
+.container-main {
+    margin: auto;
+    height: 150px;
+    background-color: #000;
+    align-items: center;
+    justify-content:  center;
+    display: flex;
+}
+.container-main h2 {
+    color: white;
+   font-weight: bold;
+}
+.container-sub {
+    margin: auto;
     height: 100vh;
-    border: 2px solid red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content:  space-evenly;
+    display: block;
+}
+.container-sub h3 {
+    color: rgb(0, 0, 0);
+   font-weight: bold;
+}
+
+.container1 {
+    margin: 5px;
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.container2 {
+    margin: 5px;
+    display: flex;
+}
+
+.container3 {
+    margin: 5px;
+    display: flex;
+
+}
+
+.product {
+    height: 350px;
+    width: 250px;
+    margin:5px;
+}
+.product-img{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+   
+    }
+.product h5{
+        font-size: 15px;
+}
+.cctv1 {
+    background-image: url(./image1/cctv1.jpeg);
+}
+.cctv2 {
+    background-image: url(./image1/cctv2.jpeg);
+}
+.cctv3 {
+    background-image: url(./image1/cctv3.jpeg);
+}
+.cctv4 {
+    background-image: url(./image1/cctv4.jpeg);
+}
+.cctv5 {
+    background-image: url(./image1/cctv5.jpeg);
+}
+.cctv6 {
+    background-image: url(./image1/cctv6.jpeg);
+}
+.cctv7 {
+    background-image: url(./image1/cctv7.png);
+}
+.cctv8 {
+    background-image: url(./image1/cctv8.jpeg);
+}
+.product:hover{
+    background-color: #c7c7c7ce;
+    border-radius: 15px 15px 15px 15px;
+    transform:scale(1.03);
+    transition: all 1s ease;
+}
+.contact a {
+    width: 150px;
+    background-color: #000000;
+    color: #ffffff;
+    padding:5px 5px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 2px;
+}  
+
+.contact a:hover {
+color: #ffffff;
+text-decoration: none;
+background-color: #ff0505;
+} 
+ /* FOOTER CSS */
+ .footer {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+}
+.footer img {
+    width: 100%;
+    height: 200px;
+}
+.footer-a {
+    width:100%;
+    height: 300px;
+    position: relative; 
+    display: flex;
+    margin-top: 100px;
+}
+.hr-line {
+    width: 100%;
+    align-self: center;
+    border: 1px solid rgb(136, 136, 136);
+
+}
+ul {
+   align-self: center;
+   text-align: center;
+   justify-self: start;
+   display: flex;
+}
+li {
+    font-size: 22px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   list-style: none;
+   margin-left: 30px;
+  
+}
+.footer-a a{
+    color: #686666;
+}
+.map h1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #686666;
+    align-self:flex-start;
+    margin-left: 300PX;
+}
+.map h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+.map .fa{
+    color: rgb(255, 30, 30);
+}
+iframe {
+    margin-top: 20px;
+    margin-left: 200px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+iframe:hover {
+   transform: translateY(-20px);
+}
+
+.footer-b {
+    width: 100%;
+    height: 100px;
+    display: grid;
+}
+h6{
+    color: black;
+    align-self: flex-end;
+    justify-self: center;
+}
+.icon {
+    width: 200px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: -500px;
+    margin-right: 300px;
+    align-self: center;
+   
+}
+.icon h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #09237f;
+}
+.icon .fa {
+    align-self: center;
+    text-align: center;
+    font-size: 30px;
+    color: #09237f;
+    margin-top: 10px;
+    margin-left: 20px;
+ 
 }
